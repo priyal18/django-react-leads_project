@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+aniso8601 = "==5.1.0"
+relativetimebuilder = "<2.0.0"
+graphene = "*"
+
+[requires]
+python_version = "3.8"
